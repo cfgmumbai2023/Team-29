@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-image: url(https://www.trafigurafoundation.org/media/2722/trafigura_foundation_theurmifoundation_india.jpg?cc=0,0.28990740740740739,0,0.38475925925925925&width=2000&height=488&rnd=132608830267700000); */
+  height: 100vh;
+}
+
+.app {
+  display: flex;
+ 
+  align-items: center;
+}
+
+.card {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px;
+  border-radius: 10px;
+}
+.card :hover{
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: teal;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 20px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.card:nth-child(1) {
+  background-color:white;
+  opacity: 80%;
+}
+
+.card:nth-child(2) {
+  background-color:white;
+  opacity: 80%;
+}
+
+.card:nth-child(3) {
+  background-color:white;
+  opacity: 80%;
+}
